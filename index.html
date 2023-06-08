@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Kinlódás</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <input onchange="Csuszka()" id="csuszka1" type="range" min="100" max="200">
+        <label id="lbl1"></label>
+        <br>
+        <input onchange="Csuszka()" id="csuszka2" type="range" min="100" max="200">
+        <label id="lbl2"></label>
+        <br>
+        <input type="radio">
+        <label id="btnSazmozott" for="szamozott">Számozott</label>
+
+        <input type="radio">
+        <label id="btnSzamozatlan" for="szamozatlan">Számozatlan</label>
+        <br>
+        <button onclick="Loop()">Kérem a listát</button>
+    </form>
+
+
+</body>
+</html>
